@@ -1,0 +1,32 @@
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color: turquoise;
+}
+nav .nav-items{
+    list-style-type: none;
+    display: flex;
+}
+nav .nav-item {
+    padding-left: 2rem;
+}
+.nav-item .nav-link {
+    text-decoration: none;
+    color: black;
+}
+.social{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+}
+.social .soc-item{
+    list-style-type: none;
+    display: flex;
+}
+.soc-item .soc-link {
+    text-decoration: none;
+    padding-left: 1rem;
+}
